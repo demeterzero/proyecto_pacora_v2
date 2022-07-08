@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 535abe22549db9a468645cf755b56fe5
+timeCreated: 1434440177
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - baseTalk: {fileID: 166374, guid: cde4b0ad504cbb249a45341a95fb2d76, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

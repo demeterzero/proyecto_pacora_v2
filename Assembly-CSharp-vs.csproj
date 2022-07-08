@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{BCEC3963-9C42-C071-B7B3-13B56F7E97CD}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_2;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\BirdMove.cs" />
+     <Compile Include="Assets\Scripts\CameraMovement.cs" />
+     <Compile Include="Assets\Scripts\ControlCheck.cs" />
+     <Compile Include="Assets\Scripts\GUI\ShowDate.cs" />
+     <Compile Include="Assets\Scripts\GUI\Watch.cs" />
+     <Compile Include="Assets\Scripts\GameScore.cs" />
+     <Compile Include="Assets\Scripts\MainGameLogic.cs" />
+     <Compile Include="Assets\Scripts\MusicLogic.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\Alcalde\AlcaldeBase.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\Alcalde\AlcaldeFinal.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\Alcalde\Dialogue\AlcConFinal.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\Alcalde\Dialogue\AlcConv1.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\Alcalde\Dialogue\AlcConv2.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\Alcalde\Dialogue\AlcConv3.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\Alcalde\Dialogue\WelcomeAlcalde.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\Alcalde\Events\EventTracker.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\Camila\CamilaBase.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\Camila\Dialogue\CamDialogo2.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\Camila\Dialogue\CamDialogo3.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\Camila\Dialogue\CamDialogo4.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\Camila\Dialogue\CamilaBirdsLogic.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\Camila\Dialogue\Test.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\Camila\Dialogue\WelcomeCamila.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\Camila\Dialogue\WhichEvent.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\DonDinero\Dialogue\DonConv1.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\DonDinero\Dialogue\DonConv2.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\DonDinero\Dialogue\DonConv3.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\DonDinero\Dialogue\DonConv4.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\DonDinero\StartGameBox.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\Game Start and End\GameFinish.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\Game Start and End\GameStartScript.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\Game Start and End\InstruccionesScrip.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\Kalito\Dialogues\KaDialogo1.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\Kalito\Dialogues\KaDialogo2.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\Kalito\Dialogues\KaDialogo3.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\Kalito\Dialogues\KaDialogo4.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\Kalito\Dialogues\KaDialogo5.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\Kalito\Dialogues\KaDialogo6.cs" />
+     <Compile Include="Assets\Scripts\TalkBox\Kalito\KalitoBase.cs" />
+     <Compile Include="Assets\Scripts\TerrainSelect\ChildColor.cs" />
+     <Compile Include="Assets\Scripts\TerrainSelect\Score.cs" />
+     <Compile Include="Assets\Scripts\TerrainSelect\TerrainSelect.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

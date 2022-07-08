@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3a75dde4db141a24bb044047832f1569
+timeCreated: 1434436482
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - wallpaper: {instanceID: 0}
+  - portrait: {instanceID: 0}
+  - nextmessage: {instanceID: 0}
+  - script: {instanceID: 0}
+  - mainLog: {instanceID: 0}
+  - creditScreen: {fileID: 168456, guid: 42ceb09f1c4dea04891022f940b31bae, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
